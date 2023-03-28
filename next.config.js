@@ -17,7 +17,7 @@ module.exports = withBundleAnalyzer({
   // You can remove `basePath` if you don't need it.
   reactStrictMode: true,
   // Getting NextJS to deploy on GHPages. See here https://github.com/gregrickaby/nextjs-github-pages
-  assetPrefix: isProd ? '/your-github-repo-name/' : '',
+  assetPrefix: isProd ? '/ghpage-dancing-vitae/' : '',
   images: {
     unoptimized: true,
   },
